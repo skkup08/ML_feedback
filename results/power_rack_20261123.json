@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-23",
+  "dataset": "BigThree100",
+  "scope": "Free-bar high-bar back squat, first set, load metadata 0, paired front and side video",
+  "labels": [
+    "PASS",
+    "FAIL"
+  ],
+  "matrix_orientation": "rows are actual labels; columns are predicted labels",
+  "training_people": 12,
+  "training_class_counts": [
+    6,
+    6
+  ],
+  "evaluation_people": 8,
+  "evaluation_class_counts": [
+    4,
+    4
+  ],
+  "evaluation_valid_paired_frames": 2389,
+  "evaluation_paired_frames": 2393,
+  "training_evaluation_participant_overlap": 0,
+  "evaluation_scope": "New people from the same source and recording setup",
+  "center_validated": false,
+  "app_enabled": false,
+  "models": {
+    "previous_baseline": {
+      "features": 15,
+      "matrix": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "balanced_accuracy": 0.375,
+      "pass_recall": 0.5,
+      "fail_recall": 0.25
+    },
+    "followup_baseline": {
+      "features": 12,
+      "matrix": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "balanced_accuracy": 0.25,
+      "pass_recall": 0.25,
+      "fail_recall": 0.25
+    }
+  }
+}

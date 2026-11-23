@@ -1,0 +1,74 @@
+{
+  "dataset": "Mendeley Good/Bad Form v3",
+  "video_counts": {
+    "discovered": 1042,
+    "usable": 828,
+    "train": 497,
+    "validation": 157,
+    "test": 174
+  },
+  "excluded_counts": {
+    "ambiguous_target": 172,
+    "label_conflict": 21,
+    "insufficient_pose": 13,
+    "exact_hash_duplicate": 8
+  },
+  "participant_groups": 26,
+  "scope": "Whole-video quality test per known exercise",
+  "quality": {
+    "bent_over_row": {
+      "test_videos": 19,
+      "accuracy": 0.5789473684210527,
+      "macro_f1": 0.5777777777777777,
+      "bad_recall": 0.5,
+      "good_recall": 0.6666666666666666
+    },
+    "bicep_curl": {
+      "test_videos": 16,
+      "accuracy": 0.625,
+      "macro_f1": 0.625,
+      "bad_recall": 0.625,
+      "good_recall": 0.625
+    },
+    "push_up": {
+      "test_videos": 7,
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.8444444444444444,
+      "bad_recall": 0.8,
+      "good_recall": 1.0
+    },
+    "shoulder_press": {
+      "test_videos": 21,
+      "accuracy": 0.5238095238095238,
+      "macro_f1": 0.5138888888888888,
+      "bad_recall": 0.4,
+      "good_recall": 0.6363636363636364
+    },
+    "side_bend": {
+      "test_videos": 22,
+      "accuracy": 0.6818181818181818,
+      "macro_f1": 0.6757894736842105,
+      "bad_recall": 0.75,
+      "good_recall": 0.6
+    },
+    "squat": {
+      "test_videos": 14,
+      "accuracy": 0.7857142857142857,
+      "macro_f1": 0.7846153846153847,
+      "bad_recall": 0.7142857142857143,
+      "good_recall": 0.8571428571428571
+    },
+    "triceps_extension": {
+      "test_videos": 24,
+      "accuracy": 0.5,
+      "macro_f1": 0.4666666666666667,
+      "bad_recall": 0.8181818181818182,
+      "good_recall": 0.23076923076923078
+    }
+  },
+  "cascade_reference": {
+    "test_videos": 174,
+    "joint_accuracy": 0.5344827586206896,
+    "runtime_abstention_policy_applied": false
+  }
+}

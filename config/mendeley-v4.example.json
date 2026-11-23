@@ -1,0 +1,15 @@
+{
+  "OUT": "runs/mendeley-v4",
+  "WORK": "runs/mendeley-v4-temp",
+  "EXISTING_VIDEO_DIR": "inputs/mendeley-v3",
+  "USE_MENDELEY": true,
+  "USE_UCF101": false,
+  "USE_CORRECTION_CSV": false,
+  "MAX_DOWNLOAD_GB": 16.0,
+  "MAX_VIDEOS_PER_CLASS": 0,
+  "MAX_FRAMES": 96,
+  "SAMPLE_FPS": 6.0,
+  "N_TREES": 250,
+  "DELETE_TEMP_DATA": false,
+  "REQUIRE_ALL_MENDELEY_7": true
+}
