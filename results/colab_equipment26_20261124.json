@@ -1,0 +1,440 @@
+{
+  "audit_date_kst": "2026-11-24",
+  "verification": "Colab saved output, Drive model and sidecar inventory, and subsequent collection reports",
+  "installed_equipment_with_validated_feedback": 0,
+  "equipment_total": 26,
+  "good_only_model_files": 20,
+  "verified_good_bad_model_files_in_equipment_inventory": 0,
+  "model_binary_prediction_verified": false,
+  "retry22": {
+    "attempted": 22,
+    "new_good_only_files": 6,
+    "not_trained": 16,
+    "rows": {
+      "treadmill_walk": {
+        "status": "NOT_TRAINED_NO_DATA",
+        "unique_media_files": 0,
+        "pose_samples": 0
+      },
+      "recumbent_cycling": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 2,
+        "pose_samples": 2
+      },
+      "upright_cycling": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 2,
+        "pose_samples": 2
+      },
+      "elliptical_training": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 7,
+        "pose_samples": 5
+      },
+      "seated_chest_press": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 4,
+        "pose_samples": 4
+      },
+      "pec_deck_fly": {
+        "status": "TRAINED_GOOD_ONLY",
+        "unique_media_files": 28,
+        "pose_samples": 28
+      },
+      "seated_cable_row": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 3,
+        "pose_samples": 3
+      },
+      "machine_biceps_curl": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 2,
+        "pose_samples": 2
+      },
+      "abdominal_crunch": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 4,
+        "pose_samples": 4
+      },
+      "rotary_torso": {
+        "status": "NOT_TRAINED_NO_DATA",
+        "unique_media_files": 0,
+        "pose_samples": 0
+      },
+      "leg_extension": {
+        "status": "TRAINED_GOOD_ONLY",
+        "unique_media_files": 201,
+        "pose_samples": 25
+      },
+      "seated_leg_press": {
+        "status": "NOT_TRAINED_NO_DATA",
+        "unique_media_files": 0,
+        "pose_samples": 0
+      },
+      "smith_squat": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 4,
+        "pose_samples": 4
+      },
+      "double_twist": {
+        "status": "NOT_TRAINED_NO_DATA",
+        "unique_media_files": 0,
+        "pose_samples": 0
+      },
+      "flat_bench_press": {
+        "status": "TRAINED_GOOD_ONLY",
+        "unique_media_files": 212,
+        "pose_samples": 35
+      },
+      "incline_bench_press": {
+        "status": "TRAINED_GOOD_ONLY",
+        "unique_media_files": 216,
+        "pose_samples": 34
+      },
+      "decline_bench_press": {
+        "status": "TRAINED_GOOD_ONLY",
+        "unique_media_files": 193,
+        "pose_samples": 12
+      },
+      "machine_chest_press": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 4,
+        "pose_samples": 4
+      },
+      "chest_fly": {
+        "status": "TRAINED_GOOD_ONLY",
+        "unique_media_files": 197,
+        "pose_samples": 28
+      },
+      "high_to_low_fly": {
+        "status": "NOT_TRAINED_NO_DATA",
+        "unique_media_files": 0,
+        "pose_samples": 0
+      },
+      "low_to_high_fly": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 2,
+        "pose_samples": 2
+      },
+      "incline_dumbbell_fly": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 2,
+        "pose_samples": 2
+      }
+    }
+  },
+  "retry12": {
+    "attempted": 12,
+    "new_good_only_files": 3,
+    "not_trained": 9,
+    "rows": {
+      "treadmill_walk": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 2,
+        "pose_samples": 2
+      },
+      "recumbent_cycling": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 2,
+        "pose_samples": 2
+      },
+      "upright_cycling": {
+        "status": "TRAINED_GOOD_ONLY",
+        "unique_media_files": 8,
+        "pose_samples": 8
+      },
+      "elliptical_training": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 9,
+        "pose_samples": 7
+      },
+      "seated_chest_press": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 4,
+        "pose_samples": 4
+      },
+      "seated_cable_row": {
+        "status": "TRAINED_GOOD_ONLY",
+        "unique_media_files": 9,
+        "pose_samples": 9
+      },
+      "machine_biceps_curl": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 6,
+        "pose_samples": 5
+      },
+      "abdominal_crunch": {
+        "status": "TRAINED_GOOD_ONLY",
+        "unique_media_files": 9,
+        "pose_samples": 8
+      },
+      "rotary_torso": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 2,
+        "pose_samples": 2
+      },
+      "seated_leg_press": {
+        "status": "NOT_TRAINED_NO_DATA",
+        "unique_media_files": 0,
+        "pose_samples": 0
+      },
+      "smith_squat": {
+        "status": "NOT_TRAINED_INSUFFICIENT_POSES",
+        "unique_media_files": 4,
+        "pose_samples": 4
+      },
+      "double_twist": {
+        "status": "NOT_TRAINED_NO_DATA",
+        "unique_media_files": 0,
+        "pose_samples": 0
+      }
+    }
+  },
+  "remaining9_colab": {
+    "new_model_files": 0,
+    "rows": [
+      {
+        "exercise": "treadmill_walk",
+        "candidate_recordings_as_reported": 0,
+        "pose_frames_as_reported": 0,
+        "status": "INSUFFICIENT_INDEPENDENT_VIDEOS"
+      },
+      {
+        "exercise": "recumbent_cycling",
+        "candidate_recordings_as_reported": 2,
+        "pose_frames_as_reported": 268,
+        "status": "INSUFFICIENT_INDEPENDENT_VIDEOS"
+      },
+      {
+        "exercise": "elliptical_training",
+        "candidate_recordings_as_reported": 2,
+        "pose_frames_as_reported": 280,
+        "status": "INSUFFICIENT_INDEPENDENT_VIDEOS"
+      },
+      {
+        "exercise": "seated_chest_press",
+        "candidate_recordings_as_reported": 0,
+        "pose_frames_as_reported": 0,
+        "status": "INSUFFICIENT_INDEPENDENT_VIDEOS"
+      },
+      {
+        "exercise": "machine_biceps_curl",
+        "candidate_recordings_as_reported": 1,
+        "pose_frames_as_reported": 140,
+        "status": "INSUFFICIENT_INDEPENDENT_VIDEOS"
+      },
+      {
+        "exercise": "rotary_torso",
+        "candidate_recordings_as_reported": 0,
+        "pose_frames_as_reported": 0,
+        "status": "INSUFFICIENT_INDEPENDENT_VIDEOS"
+      },
+      {
+        "exercise": "seated_leg_press",
+        "candidate_recordings_as_reported": 0,
+        "pose_frames_as_reported": 0,
+        "status": "INSUFFICIENT_INDEPENDENT_VIDEOS"
+      },
+      {
+        "exercise": "smith_squat",
+        "candidate_recordings_as_reported": 2,
+        "pose_frames_as_reported": 280,
+        "status": "INSUFFICIENT_INDEPENDENT_VIDEOS"
+      },
+      {
+        "exercise": "double_twist",
+        "candidate_recordings_as_reported": 0,
+        "pose_frames_as_reported": 0,
+        "status": "INSUFFICIENT_INDEPENDENT_VIDEOS"
+      }
+    ]
+  },
+  "overnight_web_review": {
+    "unique_files_reviewed": 10,
+    "excluded_equipment_variants": 2,
+    "eligible_independent_recordings": 0,
+    "new_model_files": 0
+  },
+  "good_only_inventory": [
+    {
+      "exercise_key": "upright_cycling",
+      "name": "업라이트 바이크",
+      "model_filename": "upright_cycling.joblib",
+      "reported_usable_pose_samples": 8,
+      "documented_feature_dimension": 79,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "retry12"
+    },
+    {
+      "exercise_key": "abdominal_crunch",
+      "name": "앱도미널 크런치",
+      "model_filename": "abdominal_crunch.joblib",
+      "reported_usable_pose_samples": 8,
+      "documented_feature_dimension": 79,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "retry12"
+    },
+    {
+      "exercise_key": "sit_up",
+      "name": "싯업",
+      "model_filename": "sit_up.joblib",
+      "reported_usable_pose_samples": 45,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    },
+    {
+      "exercise_key": "leg_extension",
+      "name": "레그 익스텐션",
+      "model_filename": "leg_extension.joblib",
+      "reported_usable_pose_samples": 25,
+      "documented_feature_dimension": 79,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "retry22"
+    },
+    {
+      "exercise_key": "power_rack_squat",
+      "name": "파워랙 바벨 스쿼트",
+      "model_filename": "power_rack_squat.joblib",
+      "reported_usable_pose_samples": 25,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    },
+    {
+      "exercise_key": "power_leg_press",
+      "name": "파워 레그 프레스",
+      "model_filename": "power_leg_press.joblib",
+      "reported_usable_pose_samples": 12,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    },
+    {
+      "exercise_key": "leg_curl",
+      "name": "레그 컬",
+      "model_filename": "leg_curl.joblib",
+      "reported_usable_pose_samples": 20,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    },
+    {
+      "exercise_key": "seated_cable_row",
+      "name": "롱 풀 시티드 로우",
+      "model_filename": "seated_cable_row.joblib",
+      "reported_usable_pose_samples": 9,
+      "documented_feature_dimension": 79,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "retry12"
+    },
+    {
+      "exercise_key": "hyperextension",
+      "name": "하이퍼 익스텐션",
+      "model_filename": "hyperextension.joblib",
+      "reported_usable_pose_samples": 12,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    },
+    {
+      "exercise_key": "mega_max_lat_pulldown",
+      "name": "메가맥스 랫 풀다운",
+      "model_filename": "mega_max_lat_pulldown.joblib",
+      "reported_usable_pose_samples": 16,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    },
+    {
+      "exercise_key": "chin_up",
+      "name": "친업",
+      "model_filename": "chin_up.joblib",
+      "reported_usable_pose_samples": 20,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    },
+    {
+      "exercise_key": "machine_shoulder_press",
+      "name": "머신 숄더 프레스",
+      "model_filename": "machine_shoulder_press.joblib",
+      "reported_usable_pose_samples": 16,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    },
+    {
+      "exercise_key": "chest_fly",
+      "name": "머신 체스트 플라이",
+      "model_filename": "chest_fly.joblib",
+      "reported_usable_pose_samples": 28,
+      "documented_feature_dimension": 79,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "retry22"
+    },
+    {
+      "exercise_key": "decline_bench_press",
+      "name": "디클라인 벤치프레스",
+      "model_filename": "decline_bench_press.joblib",
+      "reported_usable_pose_samples": 12,
+      "documented_feature_dimension": 79,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "retry22"
+    },
+    {
+      "exercise_key": "incline_bench_press",
+      "name": "인클라인 벤치프레스",
+      "model_filename": "incline_bench_press.joblib",
+      "reported_usable_pose_samples": 34,
+      "documented_feature_dimension": 79,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "retry22"
+    },
+    {
+      "exercise_key": "flat_bench_press",
+      "name": "플랫 벤치프레스",
+      "model_filename": "flat_bench_press.joblib",
+      "reported_usable_pose_samples": 35,
+      "documented_feature_dimension": 79,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "retry22"
+    },
+    {
+      "exercise_key": "pec_deck_fly",
+      "name": "펙덱 플라이",
+      "model_filename": "pec_deck_fly.joblib",
+      "reported_usable_pose_samples": 28,
+      "documented_feature_dimension": 79,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "retry22"
+    },
+    {
+      "exercise_key": "dip_station_dip",
+      "name": "치닝 디핑 머신 딥스",
+      "model_filename": "dip_station_dip.joblib",
+      "reported_usable_pose_samples": 32,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    },
+    {
+      "exercise_key": "cable_crossover",
+      "name": "케이블 크로스오버",
+      "model_filename": "cable_crossover.joblib",
+      "reported_usable_pose_samples": 22,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    },
+    {
+      "exercise_key": "high_fly",
+      "name": "하이 플라이",
+      "model_filename": "high_fly.joblib",
+      "reported_usable_pose_samples": 12,
+      "documented_feature_dimension": 24,
+      "status": "TRAINED_GOOD_ONLY",
+      "stage": "initial"
+    }
+  ]
+}
